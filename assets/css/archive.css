@@ -14,6 +14,16 @@
   --accent-soft: rgba(208, 80, 61, 0.14);
   --card: #151111;
   --grain-opacity: 0.07;
+  --ambient-core: #4a1610;
+  --len-flash: #9fb0b2;
+  --len-short: #d4bd8f;
+  --len-medium: #e08a45;
+  --len-long: #e2564a;
+  --len-novella: #a98bd6;
+  --ambient-mid: rgba(38, 15, 13, 0.75);
+  --ambient-vignette: rgba(0, 0, 0, 0.6);
+  --glass: rgba(21, 16, 16, 0.62);
+  --glass-deep: rgba(14, 12, 12, 0.5);
   --serif: "Literata", Georgia, "Times New Roman", serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme: dark;
@@ -28,6 +38,16 @@
   --accent-soft: rgba(158, 43, 31, 0.08);
   --card: #faf6f0;
   --grain-opacity: 0;
+  --ambient-core: rgba(178, 72, 54, 0.22);
+  --len-flash: #4f6366;
+  --len-short: #85692f;
+  --len-medium: #a8541a;
+  --len-long: #a3241c;
+  --len-novella: #6a45a3;
+  --ambient-mid: rgba(178, 72, 54, 0.07);
+  --ambient-vignette: rgba(60, 30, 20, 0.08);
+  --glass: rgba(250, 246, 240, 0.72);
+  --glass-deep: rgba(244, 239, 231, 0.6);
   color-scheme: light;
 }
 
@@ -43,6 +63,22 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
+/* Red moonlit glow on the home, Genres and About pages (not on stories) */
+body.ambient {
+  background:
+    radial-gradient(ellipse 90% 120% at 50% 45%, transparent 50%, var(--ambient-vignette) 100%) fixed,
+    radial-gradient(ellipse 55% 70% at 80% 32%, var(--ambient-core) 0%, var(--ambient-mid) 42%, transparent 75%) fixed,
+    var(--bg);
+}
+
+body.ambient .side-card { background: var(--glass); }
+body.ambient .featured {
+  background:
+    radial-gradient(ellipse 70% 90% at 85% 10%, var(--accent-soft), transparent 70%),
+    linear-gradient(180deg, var(--glass), var(--glass-deep));
+}
+body.ambient .filters input { background: var(--glass); }
+
 /* Film grain */
 body::before {
   content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 100;
@@ -150,6 +186,23 @@ a { color: inherit; }
 .progress-tag { color: var(--accent); }
 .progress-tag.done { color: var(--muted); }
 .no-results { font-family: var(--sans); color: var(--muted); }
+
+/* Length colors (Flash · Short · Medium · Long · Novella) */
+.len-flash   { --len: var(--len-flash); }
+.len-short   { --len: var(--len-short); }
+.len-medium  { --len: var(--len-medium); }
+.len-long    { --len: var(--len-long); }
+.len-novella { --len: var(--len-novella); }
+.len { color: var(--len, var(--muted)); }
+.len-text { color: var(--len, inherit); }
+.genre-buttons .len-btn::before {
+  content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--len); margin-right: 7px; vertical-align: 1px; opacity: .85;
+}
+.genre-buttons .len-btn.active {
+  background: color-mix(in srgb, var(--len) 18%, transparent);
+  color: var(--len); border-color: var(--len);
+}
 
 /* Sidebar cards */
 .side-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 22px 22px 20px; font-size: 0.95rem; line-height: 1.6; }

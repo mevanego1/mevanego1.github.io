@@ -2,7 +2,7 @@
 title: "We Hired a New Babysitter"
 # subtitle: "An optional subtitle"     # remove the # to use it
 date: 2026-10-07        # year-month-day; controls the order on the home page
-genre: Creature Horror
+genre: Creature Feature
 length: Medium
 summary: "An unfamiliar babysitter sends disturbing messages to a family who are leaving their daughter for the first time."
 # notes: "An optional author's note"   # remove the # to use it

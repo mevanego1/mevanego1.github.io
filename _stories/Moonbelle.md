@@ -2,7 +2,7 @@
 title: "Moonbelle"
 # subtitle: "An optional subtitle"     # remove the # to use it
 date: 2026-08-05        # year-month-day; controls the order on the home page
-genre: Body Horror
+genre: Creature Feature
 length: Long
 summary: "A woman plants a flower that is unlike anything she has ever seen before."
 # notes: "An optional author's note"   # remove the # to use it

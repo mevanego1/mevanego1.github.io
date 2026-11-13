@@ -7,7 +7,7 @@ layout: default
 <a class="back-home" id="back-home" href="{{ '/' | relative_url }}">← All stories</a>
 <article class="story">
   <header class="story-header">
-    {% if page.genre %}<a class="genre" href="{{ '/genres/' | relative_url }}#{{ page.genre | slugify }}">{{ page.genre }}</a>{% endif %}{% if page.genre and page.length %}<span class="genre-sep">·</span>{% endif %}{% if page.length %}<span class="genre">{{ page.length }}</span>{% endif %}
+    {% if page.genre %}<a class="genre" href="{{ '/genres/' | relative_url }}#{{ page.genre | slugify }}">{{ page.genre }}</a>{% endif %}{% if page.genre and page.length %}<span class="genre-sep">·</span>{% endif %}{% if page.length %}<span class="genre len-text len-{{ page.length | slugify }}">{{ page.length }}</span>{% endif %}
     <h1>{{ page.title }}</h1>
     {% if page.subtitle and page.subtitle != "" %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
     <p class="meta">

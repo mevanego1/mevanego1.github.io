@@ -2,7 +2,7 @@
 title: "The Dirt Beneath my Nails"
 # subtitle: "An optional subtitle"     # remove the # to use it
 date: 2026-10-25        # year-month-day; controls the order on the home page
-genre: Supernatural Horror
+genre: Creature Feature
 length: Medium
 summary: "Every morning a man wakes up with dirt under his fingernails and no memory to how it got there."
 # notes: "An optional author's note"   # remove the # to use it
