@@ -3,6 +3,8 @@ layout: default
 ---
 {% assign sorted = site.stories | sort: "date" | reverse %}
 {% assign genres = site.stories | map: "genre" | compact | uniq | sort %}
+{% assign lengths = site.stories | map: "length" | compact | uniq %}
+{% assign length_order = "Flash,Short,Medium,Long,Novella" | split: "," %}
 
 <section class="intro">
   <h1>{{ site.tagline }}</h1>
@@ -11,21 +13,35 @@ layout: default
 
 <div class="filters">
   <input id="search" type="search" placeholder="Search titles and summaries…" aria-label="Search stories">
-  <div class="genre-buttons" role="group" aria-label="Filter by genre">
-    <button class="active" data-genre="">All</button>
-    {% for g in genres %}<button data-genre="{{ g | slugify }}">{{ g }}</button>{% endfor %}
+  <div class="filter-row">
+    <span class="filter-label">Genre</span>
+    <div class="genre-buttons" role="group" aria-label="Filter by genre" data-filter="genre">
+      <button class="active" data-value="">All</button>
+      {% for g in genres %}<button data-value="{{ g | slugify }}">{{ g }}</button>{% endfor %}
+    </div>
   </div>
+  {% if lengths.size > 0 %}
+  <div class="filter-row">
+    <span class="filter-label">Length</span>
+    <div class="genre-buttons" role="group" aria-label="Filter by length" data-filter="length">
+      <button class="active" data-value="">All</button>
+      {% for l in length_order %}{% if lengths contains l %}<button data-value="{{ l | slugify }}">{{ l }}</button>{% endif %}{% endfor %}
+      {% for l in lengths %}{% unless length_order contains l %}<button data-value="{{ l | slugify }}">{{ l }}</button>{% endunless %}{% endfor %}
+    </div>
+  </div>
+  {% endif %}
 </div>
 
 <ol class="story-list">
   {% for story in sorted %}
   {% assign words = story.content | strip_html | number_of_words %}
   {% assign minutes = words | divided_by: site.reading_speed | at_least: 1 %}
-  <li class="story-item" data-genre="{{ story.genre | slugify }}" data-text="{{ story.title | append: ' ' | append: story.summary | downcase | escape }}">
+  <li class="story-item" data-genre="{{ story.genre | slugify }}" data-length="{{ story.length | slugify }}" data-text="{{ story.title | append: ' ' | append: story.summary | downcase | escape }}">
     <a href="{{ story.url | relative_url }}">
       <div class="item-meta">
         <time datetime="{{ story.date | date_to_xmlschema }}">{{ story.date | date: "%b %-d, %Y" }}</time>
         {% if story.genre %}<span>{{ story.genre }}</span>{% endif %}
+        {% if story.length %}<span>{{ story.length }}</span>{% endif %}
         <span>{{ minutes }} min</span>
       </div>
       <h2>{{ story.title }}</h2>
@@ -39,16 +55,17 @@ layout: default
 <script>
 (function () {
   var search = document.getElementById('search');
-  var buttons = document.querySelectorAll('.genre-buttons button');
   var items = document.querySelectorAll('.story-item');
   var empty = document.getElementById('no-results');
-  var genre = '';
+  var active = { genre: '', length: '' };
 
   function apply() {
     var q = search.value.trim().toLowerCase();
     var shown = 0;
     items.forEach(function (el) {
-      var ok = (!genre || el.dataset.genre === genre) && (!q || el.dataset.text.indexOf(q) !== -1);
+      var ok = (!active.genre || el.dataset.genre === active.genre) &&
+               (!active.length || el.dataset.length === active.length) &&
+               (!q || el.dataset.text.indexOf(q) !== -1);
       el.hidden = !ok;
       if (ok) shown++;
     });
@@ -56,12 +73,15 @@ layout: default
   }
 
   search.addEventListener('input', apply);
-  buttons.forEach(function (b) {
-    b.addEventListener('click', function () {
-      buttons.forEach(function (x) { x.classList.remove('active'); });
-      b.classList.add('active');
-      genre = b.dataset.genre;
-      apply();
+  document.querySelectorAll('[data-filter]').forEach(function (group) {
+    var buttons = group.querySelectorAll('button');
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        buttons.forEach(function (x) { x.classList.remove('active'); });
+        b.classList.add('active');
+        active[group.dataset.filter] = b.dataset.value;
+        apply();
+      });
     });
   });
 })();

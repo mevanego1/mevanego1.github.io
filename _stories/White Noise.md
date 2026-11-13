@@ -1,10 +1,12 @@
 ---
 title: "White Noise"
 date: 2026-11-13
-genre: Short
+genre: Supernatural Horror
+length: Short
 summary: "After moving in with his girlfriend, Ryan discovers that she cannot fall asleep without her 'white noise'"
 notes: "This story was written while I was on the train."
 ---
+
 I waved goodbye to Trevor, sending him off with half a box of pepperoni pizza and a handful of leftover beers. It should prove to be more than fair payment for the few hours of manual labor that it took to help move Faye and me into our new home. He was the last of our motley crew to leave, staying well into the evening.
 
 "We did it." I said after he left.
@@ -15,7 +17,7 @@ I waved goodbye to Trevor, sending him off with half a box of pepperoni pizza an
 
 Faye slipped away from me, playfully skirting around my kiss.
 
-"Not tonight, tiger. I am absolutely exhausted." 
+"Not tonight, tiger. I am absolutely exhausted."
 
 She began to make her way up the stairs. The stairs of our house. Finally, after putting up with a long distance relationship for nearly two years we had something together.
 
@@ -47,7 +49,7 @@ Today had gone as perfect as I could have asked for. There was no use arguing ov
 
 "Yeah, it's no problem to me."
 
-"Thanks roommate\!" Faye leapt from under the covers and kissed me on the lips.
+"Thanks roommate!" Faye leapt from under the covers and kissed me on the lips.
 
 I could hardly keep a straight face as I tucked myself in on the other side of the bed. Naturally, it was the side closest to the door.
 
@@ -83,9 +85,9 @@ Faye sat directly up, her eyes tightly shut. Her head spun towards me and she re
 
 I recoiled, nearly falling out of the bed.
 
-"Faye, you're freaking me out\!" My volume rose as did the tremble of my voice.
+"Faye, you're freaking me out!" My volume rose as did the tremble of my voice.
 
-Faye reached for my arm and grabbed me with imperceptible strength. She pulled me in and pinned me against the bed.I fought against Faye's weight, but I couldn't break free as she repeated the strange ramblings from the white noise maker. 
+Faye reached for my arm and grabbed me with imperceptible strength. She pulled me in and pinned me against the bed.I fought against Faye's weight, but I couldn't break free as she repeated the strange ramblings from the white noise maker.
 
 "Mens porta est inter regna."
 

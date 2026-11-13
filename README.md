@@ -80,4 +80,4 @@ Colors and fonts are at the top of `assets/css/style.css`. The site switches to 
 | `STORY_TEMPLATE.md` | Copy this to start a new story |
 | `_layouts/`, `assets/` | Design files. You don't need to touch these |
 
-The home page includes search and genre filters. Every story shows its word count and reading time and links to the next and previous stories. The site also publishes an RSS feed so readers can follow new stories.
+The home page includes search plus genre and length filters. Every story shows its word count and reading time and links to the next and previous stories. The site also publishes an RSS feed so readers can follow new stories.

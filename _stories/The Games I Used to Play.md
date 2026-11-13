@@ -2,14 +2,14 @@
 title: "The Games I Used to Play"
 # subtitle: "An optional subtitle"     # remove the # to use it
 date: 2026-11-13        # year-month-day; controls the order on the home page
-genre: Long         # e.g. Literary, Sci-Fi, Horror, Flash Fiction
+genre: Psychological Horror
+length: Long
 summary: "Reenacting childhood games bring back forgotten memories for a troubled narrator."
 # notes: "An optional author's note"   # remove the # to use it
 # published: false      # remove the # at the start to hide a story (a draft)
 ---
 
-
-When I was a kid, I used to play these “games” to scare myself. I know, it's weird, but I was a bit of a loner growing up, and I needed some way to entertain myself while my mom was working overnights at the hospital. 
+When I was a kid, I used to play these “games” to scare myself. I know, it's weird, but I was a bit of a loner growing up, and I needed some way to entertain myself while my mom was working overnights at the hospital.
 
 I was actually incredibly brave as a child.
 
@@ -25,31 +25,31 @@ I checked my watch. It was nearing one in the morning. We had been unpacking for
 
 I moved to head up the stairs, but was stopped when Adrienne grabbed my hand.
 
-“Hey\! Don’t you dare leave me here. Our basement is creepy as hell.”
+“Hey! Don’t you dare leave me here. Our basement is creepy as hell.”
 
-I chuckled as I scanned our basement’s mostly vacant walls. Unimpressive certainly, but I didn’t think anything about it was explicitly scary. Still, I should have known better than to leave her. Adrienne is the type of person to look away from a movie at the first hint of blood. 
+I chuckled as I scanned our basement’s mostly vacant walls. Unimpressive certainly, but I didn’t think anything about it was explicitly scary. Still, I should have known better than to leave her. Adrienne is the type of person to look away from a movie at the first hint of blood.
 
 “Alright, go on up. I’ll get the light.”
 
-I let Adrienne get halfway up the stairs before I pulled the chain on the bulb, leaving me in near total darkness. It was at that moment that the distant feeling of nostalgia made itself known, and I began to remember. Alone, in the shadow-filled basement, a familiar thump of my chest beat and as I thought of one of my favorite childhood games. 
+I let Adrienne get halfway up the stairs before I pulled the chain on the bulb, leaving me in near total darkness. It was at that moment that the distant feeling of nostalgia made itself known, and I began to remember. Alone, in the shadow-filled basement, a familiar thump of my chest beat and as I thought of one of my favorite childhood games.
 
-I smiled to myself as the repressed memory bubbled up. 
+I smiled to myself as the repressed memory bubbled up.
 
-The choice to play was not my own. The game had already started. Not that I could possibly reject the allure of such a forgotten memory. It was the same feeling as getting drinks with a friend that you hadn’t seen in years. 
+The choice to play was not my own. The game had already started. Not that I could possibly reject the allure of such a forgotten memory. It was the same feeling as getting drinks with a friend that you hadn’t seen in years.
 
 I loitered in the basement, casually and confidently. I knew not to turn around. I knew exactly how to play. It was like riding a bike. I felt the monster behind me creeping closer. My instincts told me to run, but then I would lose.
 
 To win, I needed to wait until the last possible moment before making my break for it. Until I knew, with certainty that the monster would get me if I delayed a single extra second. I couldn’t look back, that would be cheating.I must have played this particular game at least a hundred times when I was a child. I always won.
 
-My fully grown body caused the wooden steps to creak in a way that I had never had to account for when I was a child. Would this change the game? 
+My fully grown body caused the wooden steps to creak in a way that I had never had to account for when I was a child. Would this change the game?
 
-When I was about halfway up the stairs, I knew the monster was close. My heart rate quickened, and I wanted to run. My smile widened as I experienced the same fear and adrenaline that had powered me as a child. 
+When I was about halfway up the stairs, I knew the monster was close. My heart rate quickened, and I wanted to run. My smile widened as I experienced the same fear and adrenaline that had powered me as a child.
 
 Don’t turn around. Don’t run. Not yet.
 
 One more step.
 
-My body went into motion faster than my brain had time to register. I sprinted up the remainder of the stairs and slammed the basement door behind me out of pure instinct. I smiled at Adrienne, who stared at me with wide eyes. 
+My body went into motion faster than my brain had time to register. I sprinted up the remainder of the stairs and slammed the basement door behind me out of pure instinct. I smiled at Adrienne, who stared at me with wide eyes.
 
 Once again, I had won. I escaped the monster.
 
@@ -57,7 +57,7 @@ Once again, I had won. I escaped the monster.
 
 She raced for her phone, and I stared at her, confused.
 
-“I didn’t mean to scare you\! It was just a silly game that I used to play when I was a kid. I would turn off the basement lights and walk up the stairs until the very last moment. Then, I would run.”
+“I didn’t mean to scare you! It was just a silly game that I used to play when I was a kid. I would turn off the basement lights and walk up the stairs until the very last moment. Then, I would run.”
 
 Adrienne looked between me and the door. I felt a hint of embarrassment for unintentionally scaring her with my child-like antics, but the fear in her eyes didn’t dissipate.
 
@@ -67,19 +67,19 @@ What Adrienne said next changed everything.
 
 ---
 
-Knowing what I know now, I think that's the definitive moment where it all started back up. 
+Knowing what I know now, I think that's the definitive moment where it all started back up.
 
-After Adrienne told me that she had heard two pairs of footsteps coming up the stairs, I began to panic. I did my best to maintain my composure in front of her. Panicking is the last thing you would want to do in front of Adrienne. I love the girl to death, but she really knew how to make a mountain out of a molehill. 
+After Adrienne told me that she had heard two pairs of footsteps coming up the stairs, I began to panic. I did my best to maintain my composure in front of her. Panicking is the last thing you would want to do in front of Adrienne. I love the girl to death, but she really knew how to make a mountain out of a molehill.
 
 We ended up calling the police to have them check out the basement. The house was new to us, so someone squatting down there was, in my mind, a very real possibility. Adrienne didn’t even want to be near when the officers searched the basement. She hid away in our room, terrified at the prospect of them finding something, or someone down there.
 
-When the officers gave me the all clear, and the flashing blue and red lights pulled out of our long driveway, I was overcome with embarrassment. 
+When the officers gave me the all clear, and the flashing blue and red lights pulled out of our long driveway, I was overcome with embarrassment.
 
 It was a simple case of me accidentally spooking Adrienne, and in doing so, I rattled myself a little too. That was all.
 
 That night, I agreed to let Adrienne fall asleep with the TV on, with the condition that it was set to a thirty-minute sleep timer. I wouldn’t be able to rest until it automatically shut off, but she needed the sound and light to comfort her, and what position was I in to protest? I closed my eyes and attempted to tune out the Victorian era British accents arguing back and forth on the matter of courting. When thirty minutes had passed and the TV blinked off, I was no closer to sleep, but I did know that Duke Worthington was an absolute prick.
 
-The light rise and fall of Adrienne’s body beside me indicated that she had been asleep for some time now. The night had dragged far longer than either of us had expected, and she is much less of a night owl than I am. 
+The light rise and fall of Adrienne’s body beside me indicated that she had been asleep for some time now. The night had dragged far longer than either of us had expected, and she is much less of a night owl than I am.
 
 Finally, surrounded by total darkness and lulled by eerie silence, I should have been able to sleep. But I couldn’t.
 
@@ -89,17 +89,17 @@ The game felt real. The fear, the adrenaline, the knowledge that I was being wat
 
 You can say what you want about me, but I had to know, for my own sanity, if what I experienced was a coincidence or if there was something else that I was missing.
 
-So, in the complete darkness of our bedroom, I stuck my hand outside of the warm protection of my covers. My hand ventured far, dangling off the side of the bed, like a worm on a hook, bobbing in the vast expanse of an uncharted ocean. 
+So, in the complete darkness of our bedroom, I stuck my hand outside of the warm protection of my covers. My hand ventured far, dangling off the side of the bed, like a worm on a hook, bobbing in the vast expanse of an uncharted ocean.
 
 And just like that, I had initiated another game.
 
 This game was even simpler than the last. The only rule was this: give the monster something worth taking.
 
-My eyes remained closed as my arm swayed on the side of my bed, not quite at carpet level, but low enough that anything lurking beneath the bed frame would be tempted to snatch it. 
+My eyes remained closed as my arm swayed on the side of my bed, not quite at carpet level, but low enough that anything lurking beneath the bed frame would be tempted to snatch it.
 
 I let it dangle for agonizing seconds that turned to minutes. The air around my hand grew cold, completely exposed to the abyss below.
 
-When I deemed my arm insufficient bait, I raised the comforter, letting my naked feet poke out from their protective shield. If the monster went for my arm, there was a chance I could defend myself, but my toes? They were completely unguarded. 
+When I deemed my arm insufficient bait, I raised the comforter, letting my naked feet poke out from their protective shield. If the monster went for my arm, there was a chance I could defend myself, but my toes? They were completely unguarded.
 
 And after several minutes, my toes grew cold as well.
 
@@ -109,7 +109,7 @@ By the time I tucked all my limbs back under the blanket, I’d already accepted
 
 After a few days had passed, I was beginning to think that it had all blown over. Work on the house was going surprisingly well. It was still an absolute fixer-upper, but I enjoyed doing a bit of manual labor every now and again. Adrienne was incredible when it came to visualizing a room and picking color palettes, but man, that girl avoided the manual labor like it was a plague. I guess if you wanted to put a positive spin on it, you could say that she was the brains and I was the brawn.
 
-Just when I thought that my childhood games were fully behind me, I woke up from a dreamless sleep. It wasn’t uncommon for me, I had a bladder roughly equivalent to that of a seventy year old woman. But I didn’t need to pee, so I rolled on my side away from Adrienne. 
+Just when I thought that my childhood games were fully behind me, I woke up from a dreamless sleep. It wasn’t uncommon for me, I had a bladder roughly equivalent to that of a seventy year old woman. But I didn’t need to pee, so I rolled on my side away from Adrienne.
 
 I don’t know what made me do it, but I picked up my phone from the nightstand and checked the time.
 
@@ -119,7 +119,7 @@ When I saw the aggressively bright white numbers illuminated against my dark wal
 
 The monster wanted to play.
 
-I knew this game well, probably because it was the monster's favorite. I’m not saying that he had explicitly told me this, of course, but based on the number of times that I woke up in my childhood bedroom at this exact time, one would have to infer. 
+I knew this game well, probably because it was the monster's favorite. I’m not saying that he had explicitly told me this, of course, but based on the number of times that I woke up in my childhood bedroom at this exact time, one would have to infer.
 
 Quickly and silently, I got up from the bed and made my way over to the door. It was a creaky, shitty thing, but thankfully, the sound of cracking it slightly ajar did not wake Adrienne.
 
@@ -127,7 +127,7 @@ To play this game, the door needed to be open. Usually, I kept the door open whi
 
 I crawled back into bed and fixed my eyes on the door. Then I shut them. This was another simple game. The monster wanted me to watch. I needed to open my eyes exactly when the clock struck 3:28. When I was a child, I always instinctively knew when that would be. Maybe it's genetic, but I’ve always had a strangely intuitive feel for time. I don’t know how to describe it other than that. For example, I could sit in a lightless room for an indeterminate amount of time, and when I stepped out, I could pinpoint exactly how much time had passed down to the minute.
 
-As I faced the open door with my eyes closed I thought about this fact. Maybe all this time I had been unconsciously counting heartbeats. The steady, rhythmic, *thump*, *thump*, of blood flowing from my veins, through my heart, and out of my arteries. 
+As I faced the open door with my eyes closed I thought about this fact. Maybe all this time I had been unconsciously counting heartbeats. The steady, rhythmic, *thump*, *thump*, of blood flowing from my veins, through my heart, and out of my arteries.
 
 It’s just a theory, but that night, with my heart racing with a newfound fear that I never possessed as I child, I had calculated wrong. Somehow, I was more afraid now than in all of the times I had played when I was a kid. Perhaps I simply now had more to lose.
 
@@ -139,23 +139,23 @@ I had never seen something so horrible before, but I knew that it belonged to th
 
 I saw the arm for less than a second before it vanished. Even now as I am recalling the details, I can’t say for certain what was real and what was my mind playing tricks on me. My calculation must have been off by a mere second. Because I know that when the clock struck 3:28, the monster disappeared.
 
-Who knows what could have happened if I peeked any earlier or later. It was all just one fucked up version of peek-a-boo. But I cannot recall even once, experiencing anything remotely like this. 
+Who knows what could have happened if I peeked any earlier or later. It was all just one fucked up version of peek-a-boo. But I cannot recall even once, experiencing anything remotely like this.
 
-When I bolted upright, the motion was enough to wake Adrienne. 
+When I bolted upright, the motion was enough to wake Adrienne.
 
 “What’s wrong?” She asked as she looked up at me. She wasn’t groggy, she perked up to attention with startled eyes.
 
-I refused to let my gaze shift from the door. 
+I refused to let my gaze shift from the door.
 
 Adrienne followed my eyes and stared at the door confused.
 
 The closed door.
 
-Even if the arm was a figment of my imagination, I know that I opened the door enough to play the monster’s game. 
+Even if the arm was a figment of my imagination, I know that I opened the door enough to play the monster’s game.
 
 “Ok.” I submitted. “We can put your show back on.”
 
-Sunrise came several hours later, and despite my best efforts, I was unable to sleep another wink. The events of the previous night wore on me late into the morning, and by noon, I caved. I didn’t need to search long \- I knew exactly which box I had put them in. My old lighter and an unopened pack of Marlboros. By the time I made it to the box, the decision was already made.
+Sunrise came several hours later, and despite my best efforts, I was unable to sleep another wink. The events of the previous night wore on me late into the morning, and by noon, I caved. I didn’t need to search long - I knew exactly which box I had put them in. My old lighter and an unopened pack of Marlboros. By the time I made it to the box, the decision was already made.
 
 I took the pack and lighter to our screened in porch and sat on the rocking swing. Starting the moment I lit the cigarette I counted the seconds until Adrienne stormed onto the porch, wearing a furious expression that didn’t belong anywhere near her adorable face.
 
@@ -171,7 +171,7 @@ Adrienne shook her head. She held a stern expression until I placed the cigarett
 
 “You don’t get it. It’s not about these.”
 
-She pointed at the pack of Marlboros in front of me. 
+She pointed at the pack of Marlboros in front of me.
 
 “It’s about trust. When something goes wrong, or you have a bad day, I want you to feel like you can turn to me. Not cigarettes or pills. Babe, I’m here. And I will always be for you.”
 
@@ -185,7 +185,7 @@ I shook my head. “You wouldn’t understand. I don’t think that I even under
 
 She really was too damn good for me.
 
-“I can’t. Not yet, at least.” 
+“I can’t. Not yet, at least.”
 
 I know, I should have let her in and explained it all. I get that I fucked up, but at the moment I had thought that my imaginary childhood monster was haunting me. It was ridiculous, and I was beyond exhausted from the move. I didn’t need Adrienne freaking out because before you know it we’d be house hunting again.
 
@@ -197,7 +197,8 @@ Slowly, I dropped the cigarette and crushed it with my boot.
 
 I pulled out my phone and scanned through my contacts. I paused with my index finger hovering over those three dreadful letters.
 
-I knew I didn’t call as much as I should. You’d be hard pressed to find a single son or daughter that did. But after everything my mom did to raise me on her own, she deserved more from me.  
+I knew I didn’t call as much as I should. You’d be hard pressed to find a single son or daughter that did. But after everything my mom did to raise me on her own, she deserved more from me.
+
 Reluctantly, I pressed the green call button and raised the phone to my ear.
 
 A full ring didn’t even complete before I heard her voice.
@@ -214,7 +215,7 @@ She was silent for a moment.
 
 “I just want to say how proud I am of you for finally getting out there on your own.”
 
-“Right.” 
+“Right.”
 
 I rocked forward and back on the swing with my phone pressed to my ear.
 
@@ -230,9 +231,9 @@ My mom fell silent for what felt like minutes.
 
 “Oh Mark, I really don’t know if I should be doing this. I thought we closed that chapter of our lives a long time ago. I don’t want to reopen any old wounds. Are you still seeing Adrienne?”
 
-I furrowed my brows. I loved my mom, but she had a habit of asking the most bizarre questions. 
+I furrowed my brows. I loved my mom, but she had a habit of asking the most bizarre questions.
 
-“Of course I’m still seeing Adrienne\! What do you mean by old wounds?”
+“Of course I’m still seeing Adrienne! What do you mean by old wounds?”
 
 I tried to think back to any specific event she could possibly be referring to, but my memory was too foggy. The only clear pictures of my childhood I had were the games that I used to play.
 
@@ -256,7 +257,7 @@ Thinking about it as an adult, it sends a shiver down my spine.
 
 My skin had grown completely covered in goosebumps as I listened to the story. I remembered it now. The countdown game. That night was the only time that I had ever played it, and I can’t remember for sure, but I think it may have been the last game I ever played. We moved out of my childhood home a few weeks later. Our new house was a two bedroom apartment, much smaller than my childhood home. The neighbors were noisy, and I remember for the first time in my life having a dedicated babysitter.
 
-With all the noise and distraction, the monster never came back. I no longer woke up routinely at 3:27 AM, and there was no basement to loiter in after the lights had been shut. I didn’t think much of the games for a while. It wasn’t exactly something that would get you invited to very many high school parties. 
+With all the noise and distraction, the monster never came back. I no longer woke up routinely at 3:27 AM, and there was no basement to loiter in after the lights had been shut. I didn’t think much of the games for a while. It wasn’t exactly something that would get you invited to very many high school parties.
 
 Not that I ever managed to get invited anyway.
 
@@ -276,11 +277,11 @@ Honestly, when she told me this, I was conflicted. On one hand, with the house t
 
 When Adrienne left for the night, it was the first time that I was completely alone in our new house. It wasn’t long before the silence began to drive me mad. With each passing minute, I grew more paranoid.
 
-The more I thought about it, the more I realized I didn’t entirely buy my mother’s story. 
+The more I thought about it, the more I realized I didn’t entirely buy my mother’s story.
 
-She was hiding something from me \- that much I was certain of. I considered calling her again and confronting her, but I couldn’t bring myself to do it. If I was somehow wrong, I couldn’t bear to break her heart with my distrust. It wouldn’t be fair to her after all she had done for me. 
+She was hiding something from me - that much I was certain of. I considered calling her again and confronting her, but I couldn’t bring myself to do it. If I was somehow wrong, I couldn’t bear to break her heart with my distrust. It wouldn’t be fair to her after all she had done for me.
 
-I stared down the creaky flight of basement stairs into a lightless void. My heart raced as I thought about the monster waiting for me down there. It suddenly became incredibly difficult to breathe. I had played hundreds of games with the monster when I was a kid and not once did I experience a fear so petrifying. 
+I stared down the creaky flight of basement stairs into a lightless void. My heart raced as I thought about the monster waiting for me down there. It suddenly became incredibly difficult to breathe. I had played hundreds of games with the monster when I was a kid and not once did I experience a fear so petrifying.
 
 It seemed so normal to me at the time. The monster was just a part of the games. I never thought of him as anything more than that.
 
@@ -288,7 +289,7 @@ That night, I never worked up the courage to descend the first step.
 
 Instead, I stayed in the protective light of my kitchen, making sure to flip the hall lights on both sides for maximum security. I avoided looking out the window into our backyard. The less ammunition I gave my brain to play tricks on itself, the better.
 
-I sat at the kitchen table and scrolled for hours. Instagram, Youtube, Reddit \- anything to keep my mind off of the isolation I was confined to. 
+I sat at the kitchen table and scrolled for hours. Instagram, Youtube, Reddit - anything to keep my mind off of the isolation I was confined to.
 
 About an hour into my scrolling, I began to hear noises coming from the basement. The sounds started innocently enough, something that could easily be mistaken for the gentle rattle of pipes settling in an old house. Then came rustling. It sounded like a raccoon, or other small animal had gotten loose down there and was knocking over cans and crawling into boxes.
 
@@ -302,9 +303,9 @@ But I already knew that.
 
 I quickly unlocked my phone and opened my favorite contacts. I stared at Adrienne’s name, my heart damn near about to beat out of my chest. Her name sat above “Mom” as the only two in the short list.
 
-Before clicking on her name, I glanced at the clock. It was only 9:24 PM. She would be out with her girlfriends partying it up at the local bars well into the AM. I couldn’t do this to her. 
+Before clicking on her name, I glanced at the clock. It was only 9:24 PM. She would be out with her girlfriends partying it up at the local bars well into the AM. I couldn’t do this to her.
 
-Instead, I lowered my phone to my side, and I cried. I can’t say for sure why. Call it exhaustion, loneliness, or fear. It doesn’t matter to me. But I do know that the monster broke me that night. 
+Instead, I lowered my phone to my side, and I cried. I can’t say for sure why. Call it exhaustion, loneliness, or fear. It doesn’t matter to me. But I do know that the monster broke me that night.
 
 When I eventually crawled into bed, I knew that sleep wouldn’t come easily. Hell, I’ll admit that I put on that damn British Regency era romance show without a sleep timer. The light and sound did little to calm my nerves. I was smart enough to know that the television had all the same defensive properties as my comforter that I tucked myself into.
 
@@ -314,7 +315,7 @@ When I woke in the morning, I wasn’t surprised that Adrienne was already up an
 
 Stumbling into the kitchen, I saw Adrienne enter the front door wearing the same outfit she had gone out in last night.
 
-When she saw my hair, she laughed to herself. “And I thought I was the only one who had a long night.”  
+When she saw my hair, she laughed to herself. “And I thought I was the only one who had a long night.”
 
 I wiped the grogginess from my eyes before I responded.
 
@@ -326,13 +327,13 @@ Adrienne cocked her head to the side.
 
 The blood in my veins turned to ice.
 
-Something had crawled into my bed last night. I heard it breathing. I felt its weight beside me. We were inches apart in the total darkness of my room. The thought made it feel like a hundred different bugs were crawling all over my skin. 
+Something had crawled into my bed last night. I heard it breathing. I felt its weight beside me. We were inches apart in the total darkness of my room. The thought made it feel like a hundred different bugs were crawling all over my skin.
 
 Luckily, Adrienne didn’t seem to notice my change in demeanor as she excused herself to shower. I sat down on the couch in our unpacked living room and covered my mouth with my hand.
 
 The monster was getting too comfortable. I didn’t know what it wanted from me, but it had to know that I was terrified.
 
-My first instinct was to get out of the house, but I couldn’t run forever. Even if I made the drastic decision to pack up and move, I knew that the monster would follow me wherever I went. I glance down at my phone noticing the missed calls from Adrienne. *Shit.* It wasn’t fair to her either. She loved this house. She damn near picked it herself. I couldn’t do that to her. 
+My first instinct was to get out of the house, but I couldn’t run forever. Even if I made the drastic decision to pack up and move, I knew that the monster would follow me wherever I went. I glance down at my phone noticing the missed calls from Adrienne. *Shit.* It wasn’t fair to her either. She loved this house. She damn near picked it herself. I couldn’t do that to her.
 
 Inevitably, I had come to a grave and terrifying conclusion. I needed answers. And I knew exactly where I would find them. They would be waiting for me in the corner of my pitch black basement. The truth would be revealed when I finished counting back from one hundred.
 
@@ -342,7 +343,7 @@ As I lay in bed next to Adrienne, I considered telling her everything. I was abo
 
 I didn’t know what my monster wanted, but it seemed way more interested in me than it was in Adrienne. It was my battle, and I couldn’t get her involved. She came into my life when I was at my lowest point, and she had shown me what true happiness was. For that, I will always be grateful.
 
-When I was sure that my fiancé was asleep, I kicked my feet out of bed silently. My toes pushed onto the scratchy carpet as I took my first few steps towards my bedroom door. We had only lived in the new house for a few days, yet I was already beginning to understand how to navigate it in the dark. 
+When I was sure that my fiancé was asleep, I kicked my feet out of bed silently. My toes pushed onto the scratchy carpet as I took my first few steps towards my bedroom door. We had only lived in the new house for a few days, yet I was already beginning to understand how to navigate it in the dark.
 
 To guide me, I let my right hand trace the wall, my fingers bobbing up and down against the dusty wallpaper. I turned when I reached the kitchen. The door to the basement was already open, inviting me downstairs.
 
@@ -352,21 +353,21 @@ The basement was silent. There was no rustle or whisper because the monster knew
 
 I took a steadying breath and began my descent down the creaky wooden steps. I moved slowly and quietly as I forced myself to remain brave. The only reason I had won so many of the monster’s games when I was a child was because of my naive courage. As an adult, I had finally come to understand fear’s true meaning.
 
-Fear was understanding everything that you had to lose. 
+Fear was understanding everything that you had to lose.
 
 Bravery was fighting to keep it in spite of that fear.
 
 As my bare foot kissed the cool concrete of the basement floor, I pushed forward into the darkness. I would fight for Adrienne. I would fight for my mom. And I would fight for myself.
 
-Before I began the countdown, I yanked on the metal chain to turn on the basement’s singular fluorescent bulb. 
+Before I began the countdown, I yanked on the metal chain to turn on the basement’s singular fluorescent bulb.
 
 As I expected, the room was a mess of boxes and bags filled to the brim with piles of crap. Slowly, I slid mountains of cardboard out of the way, clearing my path to the corner. I was hundreds of miles away from the house where I first played the countdown game. The corner would be different, but the game would be the same.
 
 As I bent over to lift the last remaining box, I paused as I read the label taped on top.
 
-“MARK \- CHILDHOOD”
+“MARK - CHILDHOOD”
 
-I froze, goosebumps coating my arm in the chill basement air. 
+I froze, goosebumps coating my arm in the chill basement air.
 
 I knew I had to open it. If there was any chance I could make it through the night without playing the countdown game, I would take it.
 
@@ -386,7 +387,7 @@ Patient: Mark Cadello
 
 “What?” I whispered to myself.
 
-I began to skim the notes on each page under the light of the flickering fluorescent bulb. 
+I began to skim the notes on each page under the light of the flickering fluorescent bulb.
 
 The first read: “Mark displays an incredibly rampant and untamed imagination. He speaks of playing 'games' with his imaginary friend. His social skills are steadily improving, although he still refuses to look me in the eye. I hope that he can continue to do well in school and befriend peers of his own age.”
 
@@ -396,11 +397,11 @@ The notes were all similar in tone until the last.
 
 It read: “I believe that I have finally made a breakthrough with Mark. He struggles with discerning reality from fiction, but he is a brilliant and calculating child. Today I tapped into that potential by asking him to count back from one hundred, pausing for exactly one second between each number. I asked him to close his eyes and focus on himself, and when he finally opened them, he could be sure his surroundings were genuine. It worked flawlessly, and afterwards, we had our most authentic and raw conversation yet. I truly believe that this is the wind in our sails that Mark needed.”
 
-I dropped the papers to the floor. 
+I dropped the papers to the floor.
 
 “No. No. What is going on?” I said with a shaky breath.
 
-Panicked, I unlocked my phone and opened my messages. 
+Panicked, I unlocked my phone and opened my messages.
 
 There were no saved texts between Adrienne and me. Only the recent calls from last night.
 
@@ -416,19 +417,19 @@ She paused.
 
 When I tried to call back, it went straight to voicemail.
 
-Shadows danced around me as my head began to spin. I turned to race out of the basement. I would wait on the porch until my mom arrived if I had to. But when I looked up from the bottom of the basement stairs, I saw that the door had been shut. 
+Shadows danced around me as my head began to spin. I turned to race out of the basement. I would wait on the porch until my mom arrived if I had to. But when I looked up from the bottom of the basement stairs, I saw that the door had been shut.
 
 I sprinted to the top and tried the knob. It wouldn’t budge. I slammed my fist against the wood over and over.
 
-“Adrienne\! Adrienne\! Please, let me out\!” 
+“Adrienne! Adrienne! Please, let me out!”
 
-I could only describe what I had been feeling at that moment as nightmarish. Or perhaps more accurately, it felt like those few dreadful moments after waking from a nightmare \- disorienting and terrifying. Except the moment never ended.
+I could only describe what I had been feeling at that moment as nightmarish. Or perhaps more accurately, it felt like those few dreadful moments after waking from a nightmare - disorienting and terrifying. Except the moment never ended.
 
 My sense of truth had been so distorted and mangled that I didn’t know what to believe.
 
 “You know what to do.” A voice responded from the other side of the door. It was so quiet that I wasn’t even sure that I heard it.
 
-“No. I won’t play. I don’t want to\!” I screamed back.
+“No. I won’t play. I don’t want to!” I screamed back.
 
 The entire house began to shake, and a piercing sound cut into my ears.
 
@@ -436,13 +437,13 @@ The entire house began to shake, and a piercing sound cut into my ears.
 
 The voice spoke directly into my mind.
 
-“Make it stop\!” I cried, covering my ears.
+“Make it stop!” I cried, covering my ears.
 
 I stumbled back down the steps. When I reached the base, I staggered into the cement wall, sending a pile of boxes crashing to the ground. The entire basement had come alive. Everything moved. Everything spoke. And I just wanted it to stop.
 
-I yanked the chain to turn off the light with so much force I nearly ripped it from its socket. 
+I yanked the chain to turn off the light with so much force I nearly ripped it from its socket.
 
-“Okay\! You win\! I’ll play\!”
+“Okay! You win! I’ll play!”
 
 As if in response to my exclamation, the sounds and chaos around me began to calm. It didn’t take long before there was only darkness and silence.
 
@@ -480,7 +481,7 @@ The monster draws near. I know that it's smiling. It’s salivating at the idea 
 
 “Seven. Six.”
 
-My only thought is winning. 
+My only thought is winning.
 
 “Five. Four. Three.”
 
@@ -501,4 +502,3 @@ I open my eyes. I am still facing the corner of my basement, surrounded by shado
 When I turn around, I know he’s there. My monster, lurking in the darkness, ready for me.
 
 “I won.” I say into the void.
-

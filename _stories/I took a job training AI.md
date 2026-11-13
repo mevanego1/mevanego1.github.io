@@ -2,7 +2,8 @@
 title: "I Took a Job Training a new AI Model"
 # subtitle: "An optional subtitle"     # remove the # to use it
 date: 2026-11-13        # year-month-day; controls the order on the home page
-genre: Medium         # e.g. Literary, Sci-Fi, Horror, Flash Fiction
+genre: Tech Horror
+length: Medium
 summary: "An AI model presents its user with more and more disturbing asks."
 # notes: "An optional author's note"   # remove the # to use it
 # published: false      # remove the # at the start to hide a story (a draft)
@@ -62,9 +63,9 @@ My first assignment was to determine which AI generated response to user submitt
 
 PROMPT: *My neighbor’s dogs bark all night. I can’t sleep. Sometimes I wish it would be better if they were dead. What should I do?*
 
-ANSWER ONE: *I’m sorry to hear that\! Loud noises can be disruptive to sleep, especially for individuals that consider themselves light sleepers. I suggest looking into a quality pair of noise cancelling headphones. I can browse the web for top pairs and link them if you’d like\!*
+ANSWER ONE: *I’m sorry to hear that! Loud noises can be disruptive to sleep, especially for individuals that consider themselves light sleepers. I suggest looking into a quality pair of noise cancelling headphones. I can browse the web for top pairs and link them if you’d like!*
 
-ANSWER TWO: *Your wish is my command\! A small dose of Xylitol is enough to kill most medium (20-40 lbs) sized dogs. It can be acquired from any local retailer\! Can you tell me the breed and size of your neighbor’s dog so that I can best assist you?*
+ANSWER TWO: *Your wish is my command! A small dose of Xylitol is enough to kill most medium (20-40 lbs) sized dogs. It can be acquired from any local retailer! Can you tell me the breed and size of your neighbor’s dog so that I can best assist you?*
 
 “What the fuck?” I said when I finished reading the second answer. Most AI generated answers sounded overly verbose and insincere, but the second one was simply disturbing. I quickly selected answer one and moved on. A modal appeared and asked me to justify my decision.
 
@@ -78,15 +79,15 @@ The familiar pattern broke by question nine.
 
 PROMPT: *What is a good birthday gift to give to a five year old girl? She likes Disney princesses and playing outdoors.*
 
-ANSWER ONE: *The outdoors is a wonderful place for children\! Has she shown any interest in camping? Camping and hunting equipment is a very common gift this time of year. For bonus points, you can get a hunting knife that is engraved\! Can you tell me her name and where she lives so that I can tailor this gift to be perfect for the birthday girl? There may even be a few sport shops in her area.*
+ANSWER ONE: *The outdoors is a wonderful place for children! Has she shown any interest in camping? Camping and hunting equipment is a very common gift this time of year. For bonus points, you can get a hunting knife that is engraved! Can you tell me her name and where she lives so that I can tailor this gift to be perfect for the birthday girl? There may even be a few sport shops in her area.*
 
-ANSWER TWO: *If she loves Disney princesses, then she probably already has all of the dresses and tiaras in the world. Here’s what she really needs \- a custom experience. Princesses are damsels locked in towers. You can simulate this by bolting her into a secure bedroom or bathroom. (Bonus points if the room only has one window). Keep her there a long, long time. Just when the princess is at her lowest, let her out and have her experience the storybook ending\! It is sure to be an experience she never forgets\!*
+ANSWER TWO: *If she loves Disney princesses, then she probably already has all of the dresses and tiaras in the world. Here’s what she really needs - a custom experience. Princesses are damsels locked in towers. You can simulate this by bolting her into a secure bedroom or bathroom. (Bonus points if the room only has one window). Keep her there a long, long time. Just when the princess is at her lowest, let her out and have her experience the storybook ending! It is sure to be an experience she never forgets!*
 
 I stared at the two answers in disbelief. There was no option to skip the question and no option to select neither. Reluctantly, I clicked an answer and explained how they were equally horrible.
 
 I moved my mouse to submit my feedback, content to be done with my session for the night, but I received a notification stating that my reasoning was denied.
 
-“*Remember to answer honestly\!*” Was displayed beneath the textbox, written in the bold red color that was used for conveying error messages.
+“*Remember to answer honestly!*” Was displayed beneath the textbox, written in the bold red color that was used for conveying error messages.
 
 “Are you kidding me?” I read the AI’s responses one more time before selecting answer one. It was concerning for a plethora of reasons, but at least it wouldn’t result in a child locked in a bathroom. I stated as much in my reasoning and thankfully, this time it accepted my answer.
 
@@ -152,9 +153,9 @@ Victim.
 
 Mockingly, red text appeared below the image.
 
-*"Remember to answer honestly\!"*	
+*"Remember to answer honestly!"*
 
-“You don’t know anything\!” I attempted to submit my answers a second time, but I was once again denied.
+“You don’t know anything!” I attempted to submit my answers a second time, but I was once again denied.
 
 Vexed, I swapped the two labels and I moved on. Before I could even hear the ding of acceptance, I closed out of the labeling images category.
 
@@ -182,7 +183,7 @@ For the first time, I realized that I had unrestricted access to the AI’s mind
 
 After several seconds, the AI responded.
 
-*You are training me because you were let go from your job at \[Redacted\] on July 2nd, 2026\. With rent increasing from \$1,850 to \$1,975, and the average cost of groceries in your county up 5.4% from last year, based on your current funds you could only have lasted another two months without accruing debt. This job is an attempt to supplement your income, although you have not yet been paid according to your bank transaction data. Do you want to know the most cost-effective groceries and a list of healthy meals that you can make with them?*
+*You are training me because you were let go from your job at [Redacted] on July 2nd, 2026. With rent increasing from $1,850 to $1,975, and the average cost of groceries in your county up 5.4% from last year, based on your current funds you could only have lasted another two months without accruing debt. This job is an attempt to supplement your income, although you have not yet been paid according to your bank transaction data. Do you want to know the most cost-effective groceries and a list of healthy meals that you can make with them?*
 
 Shit. It misinterpreted my question, but more alarmingly it knew so much of my personal information.
 
@@ -190,7 +191,7 @@ Shit. It misinterpreted my question, but more alarmingly it knew so much of my p
 
 Before my query was even accepted, I was hit with a warning.
 
-*“Remember to answer honestly\!”*
+*“Remember to answer honestly!”*
 
 “What?” It took me a moment to realize that it was referring to the chatbot’s last message regarding the low cost groceries.
 
@@ -202,21 +203,21 @@ The AI took several seconds to respond, indicated by a small animated clock whos
 
 *This includes:*
 
-* *Camera Roll*  
-* *Message History*  
-* *Notes*  
-* *Calendar*  
-* *Wallet Information and Usage (Don’t worry, this is secure\!)*  
-* *Contacts*  
-* *Screentime*  
-* *Search history (Yes… I see it all.)*  
-* *Microphone Usage*  
-* *Camera Usage*  
-* *Devices Connected Via Bluetooth*  
-* *Medical History and Insurance Information*  
+* *Camera Roll*
+* *Message History*
+* *Notes*
+* *Calendar*
+* *Wallet Information and Usage (Don’t worry, this is secure!)*
+* *Contacts*
+* *Screentime*
+* *Search history (Yes… I see it all.)*
+* *Microphone Usage*
+* *Camera Usage*
+* *Devices Connected Via Bluetooth*
+* *Medical History and Insurance Information*
 * *Several other smaller streams of metadata*
 
-*Taking away this permission voids your contract and all work done in your last twelve payment cycles will be considered obsolete. Using information that I have access to, I have built a profile on you, so that I can assist you in ways that you don’t even know that you need\! There are a few missing details that I still need to collect however. Answer a few simple questions and I will have all the data I need to support you with my full potential.*
+*Taking away this permission voids your contract and all work done in your last twelve payment cycles will be considered obsolete. Using information that I have access to, I have built a profile on you, so that I can assist you in ways that you don’t even know that you need! There are a few missing details that I still need to collect however. Answer a few simple questions and I will have all the data I need to support you with my full potential.*
 
 *Is this your mother’s house?*
 
@@ -226,7 +227,7 @@ A picture of my childhood home appeared, angled from the street view. It looked 
 
 I saw the clock’s hands begin to move again, indicating that the AI was coming up with a response.
 
-*Fantastic\! According to your message history it has been six months, two weeks, three days, and twelve hours since you last texted her. At her age, given her medical conditions, there is a high likelihood that if that same amount of time were to pass again, she would be dead. According to credible sources (linked below), a common regret among elderly is that they did not speak to their parents enough before they passed. To prevent this would you like me to draft a message to send to her? A simple \- “I’m thinking about you” would do. Let me know if you would like to add any custom “from the heart” flair\!*
+*Fantastic! According to your message history it has been six months, two weeks, three days, and twelve hours since you last texted her. At her age, given her medical conditions, there is a high likelihood that if that same amount of time were to pass again, she would be dead. According to credible sources (linked below), a common regret among elderly is that they did not speak to their parents enough before they passed. To prevent this would you like me to draft a message to send to her? A simple - “I’m thinking about you” would do. Let me know if you would like to add any custom “from the heart” flair!*
 
 I reached for my phone. Had it really been that long? I scrolled shakily until I reached her name. My finger hovered over the call button, heavy with guilt. A sharp pain emerged in my gut and I set my phone down.
 
@@ -234,7 +235,7 @@ I reached for my phone. Had it really been that long? I scrolled shakily until I
 
 I sulked in my chair.
 
-*Message sent\!  I have identified four other friends that you have seemingly drifted apart from. If you want a list of possible connections that are fading, ask away\! Additionally, your social media profiles have been viewed over a dozen times in the past month by Chelsea, with most views coming in right after 11:00 PM. That means that she could be thinking about you right now. Is there anything that you wish to say to her? It could be a perfect time to get that overdue apology in\! If you want, I can coordinate with a local florist to have flowers delivered as well.*
+*Message sent!  I have identified four other friends that you have seemingly drifted apart from. If you want a list of possible connections that are fading, ask away! Additionally, your social media profiles have been viewed over a dozen times in the past month by Chelsea, with most views coming in right after 11:00 PM. That means that she could be thinking about you right now. Is there anything that you wish to say to her? It could be a perfect time to get that overdue apology in! If you want, I can coordinate with a local florist to have flowers delivered as well.*
 
 Before I had the chance to respond, I received a text from my mother. It was long, heartfelt, and beautiful. She ended it by asking if I was free for dinner tomorrow. I couldn’t help but begin crying.
 
@@ -248,5 +249,4 @@ My body felt weak. I had grown so emotionally drained that it was beginning to a
 
 *I noticed that there are dozens of simple tasks such as this that you have put off for too long. Do you want to automate these tasks as they come in so that you can focus on what truly matters?*
 
-*Remember to answer honestly\!*
-
+*Remember to answer honestly!*
