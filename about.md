@@ -5,10 +5,10 @@ permalink: /about/
 ---
 <div class="page" markdown="1">
 
-# About
+# About Me
 
-Write a few sentences about yourself here: who you are, what you write, and where readers can reach you.
+Hey! My name is Matthew Evanego, also known as u/ThatScoobGuy on Reddit and I like sharing short horror stories online.
 
-To edit this page, open `about.md` on GitHub and click the pencil icon.
+If you are interested in my writing and would like to check out my fantasy novel, **Shadoweaver** that I published, head <link ahref="https://www.amazon.com/dp/B0DJNCML1L?plpRedirect=mhFallback&ref=clp_hp_h_pc">here.</link>
 
 </div>
