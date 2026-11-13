@@ -4,7 +4,7 @@ title: "Moving Space"
 date: 2026-11-13        # year-month-day; controls the order on the home page
 genre: Supernatural Horror
 length: Medium
-summary: "A cross-country cargo haul takes a turn for the freaky when two men find themselves on unfamiliar roads"
+summary: "A cross-country cargo haul takes a turn for the freaky when two men find themselves on unfamiliar roads."
 # notes: "An optional author's note"   # remove the # to use it
 # published: false      # remove the # at the start to hide a story (a draft)
 ---

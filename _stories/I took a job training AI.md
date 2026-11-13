@@ -2,9 +2,9 @@
 title: "I Took a Job Training a new AI Model"
 # subtitle: "An optional subtitle"     # remove the # to use it
 date: 2026-11-13        # year-month-day; controls the order on the home page
-genre: Tech Horror
+genre: Psychological Horror
 length: Medium
-summary: "An AI model presents its user with more and more disturbing asks."
+summary: "An AI model presents its user with increasingly disturbing tasks."
 # notes: "An optional author's note"   # remove the # to use it
 # published: false      # remove the # at the start to hide a story (a draft)
 ---

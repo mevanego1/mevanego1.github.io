@@ -1,59 +1,130 @@
 ---
 layout: default
+wide: true
 ---
 {% assign sorted = site.stories | sort: "date" | reverse %}
 {% assign genres = site.stories | map: "genre" | compact | uniq | sort %}
 {% assign lengths = site.stories | map: "length" | compact | uniq %}
 {% assign length_order = "Flash,Short,Medium,Long,Novella" | split: "," %}
+{% assign featured = site.stories | where: "title", site.featured | first %}
 
-<section class="intro">
-  <h1>{{ site.tagline }}</h1>
-  <p>{{ sorted.size }} {% if sorted.size == 1 %}story{% else %}stories{% endif %} in the archive.</p>
+{% if featured %}
+{% assign f_words = featured.content | strip_html | number_of_words %}
+{% assign f_minutes = f_words | divided_by: site.reading_speed | at_least: 1 %}
+{% assign f_opening = featured.content | split: "</p>" | first | strip_html | strip | truncatewords: 48 %}
+<section class="featured">
+  <div class="featured-inner">
+    <p class="featured-kicker">Featured story</p>
+    <h1><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h1>
+    <p class="featured-meta">
+      {% if featured.genre %}{{ featured.genre }} · {% endif %}{% if featured.length %}{{ featured.length }} · {% endif %}{{ f_minutes }} min read
+    </p>
+    <blockquote class="featured-opening">{{ f_opening }}</blockquote>
+    <a class="featured-cta" href="{{ featured.url | relative_url }}" data-progress-cta>Read the story <span aria-hidden="true">→</span></a>
+  </div>
 </section>
+{% endif %}
 
-<div class="filters">
-  <input id="search" type="search" placeholder="Search titles and summaries…" aria-label="Search stories">
-  <div class="filter-row">
-    <span class="filter-label">Genre</span>
-    <div class="genre-buttons" role="group" aria-label="Filter by genre" data-filter="genre">
-      <button class="active" data-value="">All</button>
-      {% for g in genres %}<button data-value="{{ g | slugify }}">{{ g }}</button>{% endfor %}
-    </div>
-  </div>
-  {% if lengths.size > 0 %}
-  <div class="filter-row">
-    <span class="filter-label">Length</span>
-    <div class="genre-buttons" role="group" aria-label="Filter by length" data-filter="length">
-      <button class="active" data-value="">All</button>
-      {% for l in length_order %}{% if lengths contains l %}<button data-value="{{ l | slugify }}">{{ l }}</button>{% endif %}{% endfor %}
-      {% for l in lengths %}{% unless length_order contains l %}<button data-value="{{ l | slugify }}">{{ l }}</button>{% endunless %}{% endfor %}
-    </div>
-  </div>
-  {% endif %}
-</div>
+<div class="home-grid">
+  <div class="home-main">
+    <section class="intro">
+      <h2>{{ site.tagline }}</h2>
+      <p>{{ sorted.size }} {% if sorted.size == 1 %}story{% else %}stories{% endif %} in the archive.</p>
+    </section>
 
-<ol class="story-list">
-  {% for story in sorted %}
-  {% assign words = story.content | strip_html | number_of_words %}
-  {% assign minutes = words | divided_by: site.reading_speed | at_least: 1 %}
-  <li class="story-item" data-genre="{{ story.genre | slugify }}" data-length="{{ story.length | slugify }}" data-text="{{ story.title | append: ' ' | append: story.summary | downcase | escape }}">
-    <a href="{{ story.url | relative_url }}">
-      <div class="item-meta">
-        <time datetime="{{ story.date | date_to_xmlschema }}">{{ story.date | date: "%b %-d, %Y" }}</time>
-        {% if story.genre %}<span>{{ story.genre }}</span>{% endif %}
-        {% if story.length %}<span>{{ story.length }}</span>{% endif %}
-        <span>{{ minutes }} min</span>
+    <div class="filters">
+      <input id="search" type="search" placeholder="Search titles and summaries…" aria-label="Search stories">
+      <div class="filter-row">
+        <span class="filter-label">Genre</span>
+        <div class="genre-buttons" role="group" aria-label="Filter by genre" data-filter="genre">
+          <button class="active" data-value="">All</button>
+          {% for g in genres %}<button data-value="{{ g | slugify }}">{{ g }}</button>{% endfor %}
+        </div>
       </div>
-      <h2>{{ story.title }}</h2>
-      {% if story.summary %}<p>{{ story.summary }}</p>{% endif %}
-    </a>
-  </li>
-  {% endfor %}
-</ol>
-<p id="no-results" class="no-results" hidden>No stories match that.</p>
+      {% if lengths.size > 0 %}
+      <div class="filter-row">
+        <span class="filter-label">Length</span>
+        <div class="genre-buttons" role="group" aria-label="Filter by length" data-filter="length">
+          <button class="active" data-value="">All</button>
+          {% for l in length_order %}{% if lengths contains l %}<button data-value="{{ l | slugify }}">{{ l }}</button>{% endif %}{% endfor %}
+          {% for l in lengths %}{% unless length_order contains l %}<button data-value="{{ l | slugify }}">{{ l }}</button>{% endunless %}{% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <ol class="story-list">
+      {% for story in sorted %}
+      {% assign words = story.content | strip_html | number_of_words %}
+      {% assign minutes = words | divided_by: site.reading_speed | at_least: 1 %}
+      <li class="story-item" data-genre="{{ story.genre | slugify }}" data-length="{{ story.length | slugify }}" data-text="{{ story.title | append: ' ' | append: story.summary | downcase | escape }}">
+        <a href="{{ story.url | relative_url }}">
+          <div class="item-meta">
+            <time datetime="{{ story.date | date_to_xmlschema }}">{{ story.date | date: "%b %-d, %Y" }}</time>
+            {% if story.genre %}<span>{{ story.genre }}</span>{% endif %}
+            {% if story.length %}<span>{{ story.length }}</span>{% endif %}
+            <span>{{ minutes }} min</span>
+            <span class="progress-tag" hidden></span>
+          </div>
+          <h3>{{ story.title }}</h3>
+          {% if story.summary %}<p>{{ story.summary }}</p>{% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    <p id="no-results" class="no-results" hidden>No stories match that.</p>
+  </div>
+
+  <aside class="sidebar">
+    <section class="side-card author-card">
+      <p class="side-label">The author</p>
+      <h2>{{ site.author }}</h2>
+      {% if site.sidebar.bio %}<p>{{ site.sidebar.bio }}</p>{% endif %}
+      <p class="side-links">
+        {% if site.sidebar.reddit %}<a href="https://www.reddit.com/user/{{ site.sidebar.reddit }}/">u/{{ site.sidebar.reddit }} on Reddit</a>{% endif %}
+        <a href="{{ '/about/' | relative_url }}">More about me</a>
+      </p>
+    </section>
+
+    <section class="side-card" id="continue-card" hidden>
+      <p class="side-label">Continue reading</p>
+      <ul class="continue-list" id="continue-list"></ul>
+    </section>
+
+    {% if site.book.title %}
+    <section class="side-card book-card">
+      <p class="side-label">Also by {{ site.author | split: " " | first }}</p>
+      <a class="book" href="{{ site.book.url }}" rel="noopener">
+        {% if site.book.cover and site.book.cover != "" %}
+          <img src="{{ site.book.cover | relative_url }}" alt="Cover of {{ site.book.title }}">
+        {% else %}
+          <span class="book-cover" aria-hidden="true"><span class="book-title">{{ site.book.title }}</span><span class="book-author">{{ site.author }}</span></span>
+        {% endif %}
+        <span class="book-info">
+          <strong>{{ site.book.title }}</strong>
+          <span>{{ site.book.kind }}</span>
+          <span class="book-cta">Get it on Amazon →</span>
+        </span>
+      </a>
+    </section>
+    {% endif %}
+
+    {% assign total_words = 0 %}
+    {% for s in site.stories %}{% assign w = s.content | strip_html | number_of_words %}{% assign total_words = total_words | plus: w %}{% endfor %}
+    <section class="side-card stats-card">
+      <p class="side-label">By the numbers</p>
+      <dl>
+        <div><dt>Stories</dt><dd>{{ site.stories.size }}</dd></div>
+        <div><dt>Words</dt><dd>{{ total_words | divided_by: 1000 }}k+</dd></div>
+        <div><dt>Hours of reading</dt><dd>{{ total_words | divided_by: site.reading_speed | divided_by: 60 | at_least: 1 }}</dd></div>
+      </dl>
+    </section>
+  </aside>
+</div>
 
 <script>
 (function () {
+  /* Search + filters */
   var search = document.getElementById('search');
   var items = document.querySelectorAll('.story-item');
   var empty = document.getElementById('no-results');
@@ -84,5 +155,44 @@ layout: default
       });
     });
   });
+
+  /* Reading progress (saved by each story page in this browser) */
+  var progress = {};
+  try { progress = JSON.parse(localStorage.getItem('reading-progress') || '{}'); } catch (e) {}
+  function keyOf(a) { try { return decodeURIComponent(a.pathname); } catch (e) { return a.pathname; } }
+
+  document.querySelectorAll('.story-item a').forEach(function (a) {
+    var p = progress[keyOf(a)];
+    var tag = a.querySelector('.progress-tag');
+    if (!p || !tag) return;
+    if (p.p >= 0.97) { tag.textContent = 'Read ✓'; tag.className = 'progress-tag done'; tag.hidden = false; }
+    else if (p.p >= 0.03) { tag.textContent = Math.round(p.p * 100) + '% read'; tag.hidden = false; }
+  });
+
+  var cta = document.querySelector('[data-progress-cta]');
+  if (cta) {
+    var fp = progress[keyOf(cta)];
+    if (fp && fp.p >= 0.03 && fp.p < 0.97) cta.firstChild.textContent = 'Continue reading (' + Math.round(fp.p * 100) + '%) ';
+  }
+
+  var list = document.getElementById('continue-list');
+  var inProgress = Object.keys(progress).map(function (k) { return Object.assign({ url: k }, progress[k]); })
+    .filter(function (x) { return x.p >= 0.03 && x.p < 0.97 && x.title; })
+    .sort(function (a, b) { return b.ts - a.ts; }).slice(0, 3);
+  inProgress.forEach(function (x) {
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = x.url;
+    a.textContent = x.title;
+    var bar = document.createElement('span');
+    bar.className = 'mini-bar';
+    bar.innerHTML = '<span style="width:' + Math.round(x.p * 100) + '%"></span>';
+    var pct = document.createElement('span');
+    pct.className = 'mini-pct';
+    pct.textContent = Math.round(x.p * 100) + '%';
+    li.appendChild(a); li.appendChild(bar); li.appendChild(pct);
+    list.appendChild(li);
+  });
+  if (inProgress.length) document.getElementById('continue-card').hidden = false;
 })();
 </script>

@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    /* Apply the saved light/dark choice before the page draws, to avoid a flash */
+    (function () { try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {} })();
+  </script>
   {% seo %}
   {% feed_meta %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,25 +15,41 @@
   <link rel="stylesheet" href="{{ '/assets/css/archive.css' | relative_url }}">
 </head>
 <body>
+  {% if page.wide %}{% assign wrap = "wrap wide" %}{% else %}{% assign wrap = "wrap" %}{% endif %}
   <header class="site-header">
-    <div class="wrap">
+    <div class="{{ wrap }}">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Stories</a>
         <a href="{{ '/genres/' | relative_url }}">Genres</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch light or dark theme" title="Switch light or dark theme">
+          <span class="icon-sun" aria-hidden="true">☀</span><span class="icon-moon" aria-hidden="true">☾</span>
+        </button>
       </nav>
     </div>
   </header>
 
-  <main class="wrap">
+  <main class="{{ wrap }}">
     {{ content }}
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
+    <div class="{{ wrap }}">
       © {{ 'now' | date: '%Y' }} {{ site.author }} · <a href="{{ '/feed/stories.xml' | relative_url }}">RSS</a>
     </div>
   </footer>
+
+  <script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    btn.addEventListener('click', function () {
+      var root = document.documentElement;
+      var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  })();
+  </script>
 </body>
 </html>

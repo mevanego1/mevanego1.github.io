@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign words = content | strip_html | number_of_words %}
 {% assign minutes = words | divided_by: site.reading_speed | at_least: 1 %}
+<div class="read-progress" aria-hidden="true"><span id="read-progress-bar"></span></div>
 <article class="story">
   <header class="story-header">
     {% if page.genre %}<a class="genre" href="{{ '/genres/' | relative_url }}#{{ page.genre | slugify }}">{{ page.genre }}</a>{% endif %}{% if page.genre and page.length %}<span class="genre-sep">·</span>{% endif %}{% if page.length %}<span class="genre">{{ page.length }}</span>{% endif %}
@@ -38,6 +39,7 @@ layout: default
       </select>
     </label>
     <button type="button" id="story-reset">Reset</button>
+    <button type="button" id="resume-reading" class="resume" hidden></button>
   </div>
 
   <script>
@@ -62,11 +64,63 @@ layout: default
   })();
   </script>
 
-  <div class="story-body">
+  <div class="story-body" id="story-body">
     {{ content }}
   </div>
 
   <div class="end-mark" aria-hidden="true">✦</div>
+
+  <script>
+  /* Reading progress: top bar, saved position, "resume" button */
+  (function () {
+    var body = document.getElementById('story-body');
+    var bar = document.getElementById('read-progress-bar');
+    var resume = document.getElementById('resume-reading');
+    var key; try { key = decodeURIComponent(location.pathname); } catch (e) { key = location.pathname; }
+    var title = {{ page.title | jsonify }};
+    function load() { try { return JSON.parse(localStorage.getItem('reading-progress') || '{}'); } catch (e) { return {}; } }
+    function save(p) {
+      try {
+        var all = load(), prev = all[key];
+        if (prev && prev.p >= 0.97 && p < 0.97) return; /* keep "finished" once finished */
+        all[key] = { p: Math.round(p * 1000) / 1000, title: title, ts: Date.now() };
+        localStorage.setItem('reading-progress', JSON.stringify(all));
+      } catch (e) {}
+    }
+    function current() {
+      var r = body.getBoundingClientRect();
+      var total = r.height - window.innerHeight * 0.6;
+      if (total <= 0) return r.bottom <= window.innerHeight ? 1 : 0;
+      return Math.min(1, Math.max(0, (window.innerHeight * 0.4 - r.top) / total));
+    }
+    function scrollToProgress(p) {
+      var r = body.getBoundingClientRect();
+      var total = r.height - window.innerHeight * 0.6;
+      window.scrollTo({ top: window.scrollY + r.top - window.innerHeight * 0.4 + p * total, behavior: 'smooth' });
+    }
+
+    var saved = load()[key];
+    if (saved && saved.p >= 0.03 && saved.p < 0.97) {
+      resume.textContent = 'Resume where you left off (' + Math.round(saved.p * 100) + '%)';
+      resume.hidden = false;
+      resume.addEventListener('click', function () { resume.hidden = true; scrollToProgress(saved.p); });
+    }
+
+    var timer = null;
+    function saveNow() { var q = current(); if (q > 0.01) save(q); }
+    function onScroll() {
+      var p = current();
+      bar.style.width = (p * 100) + '%';
+      if (p > 0.03) resume.hidden = true;
+      clearTimeout(timer);
+      timer = setTimeout(saveNow, 300);
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('pagehide', saveNow);
+    window.addEventListener('resize', onScroll);
+    onScroll();
+  })();
+  </script>
 
   {% if page.notes and page.notes != "" %}
   <aside class="author-note">

@@ -65,6 +65,13 @@ Your stories stay in your GitHub repository no matter which domain you use. If y
 
 ---
 
+## Featured story, sidebar and theme
+- **Featured story:** set `featured:` in `_config.yml` to a story's exact title. Set it to `""` to hide the banner.
+- **Sidebar:** edit your bio, Reddit username and book details under `sidebar:` and `book:` in `_config.yml`.
+- **Book cover:** save an image as `assets/img/shadoweaver.jpg`, then set `cover: "/assets/img/shadoweaver.jpg"`. Until you do, a simple drawn cover is shown.
+- **Theme:** the site is dark by default. Readers can switch to light with the ☀ button, and their choice is remembered. Colors are at the top of `assets/css/archive.css`.
+- **Reading progress:** each reader's progress is saved in their own browser. Nothing is sent anywhere.
+
 ## Keeping a backup
 On the repository's main page, click **Code → Download ZIP** now and then. That ZIP is a complete copy of your archive.
 

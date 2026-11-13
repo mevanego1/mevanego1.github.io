@@ -1,10 +1,27 @@
 # ─────────────────────────────────────────────
 #  Your site settings — edit these first
 # ─────────────────────────────────────────────
-title: "Matthew Evanego's Private Little Library"
+title: "Matthew Evanego's Little Library"
 author: "Matthew Evanego"
 description: "A collection of short fiction."
 tagline: "Short fiction, collected in one quiet place."
+
+# The story shown in the big banner at the top of the home page.
+# Use the story's title exactly as it appears in its file. Leave empty ("") to hide the banner.
+featured: "Disturbed Frequency"
+
+# Author sidebar on the home page
+sidebar:
+  bio: "I write short horror stories and share them online. Pull up a chair, keep the lights on, and pick something to read."
+  reddit: "ThatScoobGuy"        # your Reddit username, without u/
+
+# Your book, shown in the sidebar. To show a cover image, save it as
+# assets/img/shadoweaver.jpg and set cover: "/assets/img/shadoweaver.jpg"
+book:
+  title: "Shadoweaver"
+  kind: "A fantasy novel"
+  url: "https://www.amazon.com/dp/B0DJNCML1L"
+  cover: ""
 
 # If your repository is named  yourusername.github.io  leave baseurl empty.
 # If it's named something else (e.g. "stories"), set baseurl: "/stories"
