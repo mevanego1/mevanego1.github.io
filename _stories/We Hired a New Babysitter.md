@@ -33,7 +33,7 @@ When it came to my selection for this evening, everything mattered.
 
 As if she knew that I was thinking about her, I received my first text from Tiffany. I nearly recoiled when I noticed the length of the message.
 
-*Just finished cooking Abi dinner! (Yum Face Emoji) She is the SWEETEST little pumpkin! (Pumpkin Emoji) She wanted to help so I let her play with a bowl and spatula as I made the spaghetti. I hope that’s okay. If it’s not, I’m sorry, just let me know and it won’t happen again. I think we might watch a movie next, but Abi mentioned that she loved to play Princesses and Dragons with you. (Sparkles Emoji)  It sounds like a lovely game, do you think that it is alright if we play? Also, I wanted to double check on her bedtime. I don’t remember you mentioning a time when we spoke. Does she follow any special routine? I remember when I was a kid I had a jammy time song that I sang when I brushed my teeth. (Sleeping Emoji). Hope that your travels are going well!*
+*Just finished cooking Abi dinner! 😋 She is the SWEETEST little pumpkin! 🎃 She wanted to help so I let her play with a bowl and spatula as I made the spaghetti. I hope that’s okay. If it’s not, I’m sorry, just let me know and it won’t happen again. I think we might watch a movie next, but Abi mentioned that she loved to play Princesses and Dragons with you. ✨  It sounds like a lovely game, do you think that it is alright if we play? Also, I wanted to double check on her bedtime. I don’t remember you mentioning a time when we spoke. Does she follow any special routine? I remember when I was a kid I had a jammy time song that I sang when I brushed my teeth. 😴 Hope that your travels are going well!*
 
 I stared at the longwinded message unsure of what to think. We had been driving away from the house for only about thirty minutes and Tiffany already had half a dozen questions. I was beginning to worry that I had made a poor choice.
 
@@ -53,11 +53,11 @@ It reminded me of the last time that we traveled together. Five years ago, befor
 
 It wasn’t long before I received my next text from Tiffany.
 
-*Mrs. Murphy!!! You didn’t tell me that it was Abi’s birthday tomorrow! (Cake Emoji) I feel so unprepared! Do you want me to take her out for ice cream or do anything special? I don’t mind driving her to Scoop City, it can even be my treat. On my birthday I would always get a cookie dough waffle cone with gummy bears, AND my foster family usually let me stay up past my bedtime to watch the late night cartoons.*
+*Mrs. Murphy!!! You didn’t tell me that it was Abi’s birthday tomorrow! 🎂 I feel so unprepared! Do you want me to take her out for ice cream or do anything special? I don’t mind driving her to Scoop City, it can even be my treat. On my birthday I would always get a cookie dough waffle cone with gummy bears, AND my foster family usually let me stay up past my bedtime to watch the late night cartoons.*
 
 A second text came a moment later.
 
-*Not that I am suggesting that Abi do any of that! Sorry I didn’t mean to overstep. (Monkey with hands covering eyes emoji) This is so embarrassing. Birthdays just make me SO excited. (Birthday hat emoji)*
+*Not that I am suggesting that Abi do any of that! Sorry I didn’t mean to overstep. 🙈 This is so embarrassing. Birthdays just make me SO excited. 🎉*
 
 My heart felt unnatural in my chest as I tapped out my response. I was not only leaving my daughter with a complete stranger, but I was doing it on her birthday as well. I tried to ignore the reality, but Tiffany pointing it out was like a punch to the gut.
 
@@ -67,7 +67,7 @@ My heart felt unnatural in my chest as I tapped out my response. I was not only 
 
 I glanced at the radio and noted that the time was 8:24. Only one more hour of this before Abi was safely in bed, and I wouldn’t have to think about Spiffy Tiffy ever again. I knew I wouldn’t be able to sleep, but I put my head back and closed my eyes regardless as I thought about the daughter that I was leaving behind. The ding of my phone pierced my concentration and I shot up to check my messages.
 
-*I know you said no ice cream, but we had to celebrate somehow. (Hands over giggling mouth Emoji)*
+*I know you said no ice cream, but we had to celebrate somehow. 🤭*
 
 A photo came in a few seconds later. Abi was smiling widely as she hoisted fistfuls of chocolate candy in both hands. Tiffany held up the phone, she posed back to back with Abi as she stared directly into the camera. She had a lollipop in her mouth and a smug expression. Her eyes seemed as if they were staring straight at me.
 
@@ -89,7 +89,7 @@ Harry let out a puffy breath. He knew better than to fight back. Our marriage, w
 
 I was in the midst of typing out an authoritative reply when I saw that Tiffany was typing again.
 
-*Is Abi allergic to anything? Like ANYTHING at all? You never specified, but you can also never be too careful… The last thing we need tonight is a hospital visit! But don’t worry, I am capable of using an Epipen if it comes to it. You can trust that Abi is in good hands! We’re practically sisters already. (Red heart emoji)*
+*Is Abi allergic to anything? Like ANYTHING at all? You never specified, but you can also never be too careful… The last thing we need tonight is a hospital visit! But don’t worry, I am capable of using an Epipen if it comes to it. You can trust that Abi is in good hands! We’re practically sisters already. ❤️*
 
 Another text came a moment later.
 
@@ -197,7 +197,7 @@ Tiffany responded with an avalanche of messages.
 
 *Is there a trick to the closet door handle? The door closed behind me and now I might be stuck, haha!*
 
-*Really, this thing is quite jammed. I actually think it might be locked from the outside somehow. I cannot believe I did this! I am such a ditz (Hiding behind hands Emoji)*
+*Really, this thing is quite jammed. I actually think it might be locked from the outside somehow. I cannot believe I did this! I am such a ditz 🤦‍♀️*
 
 *Oh sorry! Emoji was sent out of habit.*
 
@@ -253,7 +253,7 @@ I forced a weak smile as I took his hand and he led me towards the hospital entr
 
 As we stepped inside, my phone dinged for the final time that night. It was a message from Tiffany’s number.
 
-*Hi Mommy! Thank you for the WONDERFUL snack! Tiffany was the best birthday present ever! She was soooo fun. I can’t wait to be just like her. (Princess Emoji)*
+*Hi Mommy! Thank you for the WONDERFUL snack! Tiffany was the best birthday present ever! She was soooo fun. I can’t wait to be just like her. 👸*
 
 I smiled at my phone before tucking it into my back pocket.
 
