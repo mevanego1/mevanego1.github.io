@@ -1,0 +1,21 @@
+---
+layout: default
+title: Genres
+permalink: /genres/
+---
+{% assign groups = site.stories | sort: "date" | reverse | group_by: "genre" | sort: "name" %}
+
+<section class="intro">
+  <h1>Stories by genre</h1>
+</section>
+
+{% for group in groups %}
+<section class="genre-group" id="{{ group.name | default: 'uncategorized' | slugify }}">
+  <h2>{% if group.name == "" or group.name == nil %}Uncategorized{% else %}{{ group.name }}{% endif %} <span>{{ group.items.size }}</span></h2>
+  <ul>
+    {% for story in group.items %}
+    <li><a href="{{ story.url | relative_url }}">{{ story.title }}</a> <time>{{ story.date | date: "%Y" }}</time></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

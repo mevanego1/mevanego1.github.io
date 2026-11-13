@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────
+#  Your site settings — edit these first
+# ─────────────────────────────────────────────
+title: "Your Name — Short Stories"
+author: "Your Name"
+description: "A collection of short fiction."
+tagline: "Short fiction, collected in one quiet place."
+
+# If your repository is named  yourusername.github.io  leave baseurl empty.
+# If it's named something else (e.g. "stories"), set baseurl: "/stories"
+url: ""
+baseurl: ""
+
+# Words read per minute (used for the "x min read" estimate)
+reading_speed: 230
+
+# ─────────────────────────────────────────────
+#  You shouldn't need to change anything below
+# ─────────────────────────────────────────────
+markdown: kramdown
+kramdown:
+  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: stories
+    values:
+      layout: story
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  collections:
+    - stories
+
+exclude:
+  - README.md
+  - STORY_TEMPLATE.md
+  - Gemfile
+  - Gemfile.lock
