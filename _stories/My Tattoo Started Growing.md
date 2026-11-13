@@ -1,7 +1,7 @@
 ---
 title: "My Tattoo Started Growing"
 # subtitle: "An optional subtitle"     # remove the # to use it
-date: 2026-11-13        # year-month-day; controls the order on the home page
+date: 2026-10-09        # year-month-day; controls the order on the home page
 genre: Body Horror
 length: Medium
 summary: "After a long night out a man wakes up with a bizarre new tattoo."

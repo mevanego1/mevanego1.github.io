@@ -1,7 +1,7 @@
 ---
 title: "I Took a Job Training a new AI Model"
 # subtitle: "An optional subtitle"     # remove the # to use it
-date: 2026-11-13        # year-month-day; controls the order on the home page
+date: 2026-10-20        # year-month-day; controls the order on the home page
 genre: Psychological Horror
 length: Medium
 summary: "An AI model presents its user with increasingly disturbing tasks."

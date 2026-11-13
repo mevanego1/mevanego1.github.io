@@ -1,7 +1,7 @@
 ---
 title: "The Games I Used to Play"
 # subtitle: "An optional subtitle"     # remove the # to use it
-date: 2026-11-13        # year-month-day; controls the order on the home page
+date: 2026-04-25        # year-month-day; controls the order on the home page
 genre: Psychological Horror
 length: Long
 summary: "Reenacting childhood games bring back forgotten memories for a troubled narrator."

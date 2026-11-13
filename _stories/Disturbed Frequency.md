@@ -1,7 +1,7 @@
 ---
 title: "Disturbed Frequency"
 # subtitle: "An optional subtitle"     # remove the # to use it
-date: 2026-11-13        # year-month-day; controls the order on the home page
+date: 2026-10-01        # year-month-day; controls the order on the home page
 genre: Cosmic Horror
 length: Medium
 summary: "If you are ever driving alone on I-40 in the middle of the night, do not turn on the radio."

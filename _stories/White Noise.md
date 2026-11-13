@@ -1,6 +1,6 @@
 ---
 title: "White Noise"
-date: 2026-11-13
+date: 2026-11-12
 genre: Supernatural Horror
 length: Short
 summary: "After moving in with his girlfriend, Ryan discovers that she cannot fall asleep without her 'white noise.'"
