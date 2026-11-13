@@ -226,7 +226,7 @@ A picture of my childhood home appeared, angled from the street view. It looked 
 
 I saw the clock’s hands begin to move again, indicating that the AI was coming up with a response.
 
-	*Fantastic\! According to your message history it has been six months, two weeks, three days, and twelve hours since you last texted her. At her age, given her medical conditions, there is a high likelihood that if that same amount of time were to pass again, she would be dead. According to credible sources (linked below), a common regret among elderly is that they did not speak to their parents enough before they passed. To prevent this would you like me to draft a message to send to her? A simple \- “I’m thinking about you” would do. Let me know if you would like to add any custom “from the heart” flair\!*
+*Fantastic\! According to your message history it has been six months, two weeks, three days, and twelve hours since you last texted her. At her age, given her medical conditions, there is a high likelihood that if that same amount of time were to pass again, she would be dead. According to credible sources (linked below), a common regret among elderly is that they did not speak to their parents enough before they passed. To prevent this would you like me to draft a message to send to her? A simple \- “I’m thinking about you” would do. Let me know if you would like to add any custom “from the heart” flair\!*
 
 I reached for my phone. Had it really been that long? I scrolled shakily until I reached her name. My finger hovered over the call button, heavy with guilt. A sharp pain emerged in my gut and I set my phone down.
 
