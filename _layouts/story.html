@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% assign words = content | strip_html | number_of_words %}
+{% assign minutes = words | divided_by: site.reading_speed | at_least: 1 %}
+<article class="story">
+  <header class="story-header">
+    {% if page.genre %}<a class="genre" href="{{ '/genres/' | relative_url }}#{{ page.genre | slugify }}">{{ page.genre }}</a>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle and page.subtitle != "" %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+    <p class="meta">
+      {{ page.date | date: "%B %-d, %Y" }} · {{ words }} words · {{ minutes }} min read
+    </p>
+  </header>
+
+  <div class="story-body">
+    {{ content }}
+  </div>
+
+  <div class="end-mark" aria-hidden="true">✦</div>
+
+  {% if page.notes and page.notes != "" %}
+  <aside class="author-note">
+    <h2>Author's note</h2>
+    {{ page.notes | markdownify }}
+  </aside>
+  {% endif %}
+
+  {% assign sorted = site.stories | sort: "date" | reverse %}
+  {% for s in sorted %}
+    {% if s.url == page.url %}
+      {% assign i = forloop.index0 %}
+      {% assign newer_i = i | minus: 1 %}
+      {% assign older_i = i | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  <nav class="story-nav">
+    <div>
+      {% if older_i < sorted.size %}{% assign older = sorted[older_i] %}
+      <span>← Older</span><a href="{{ older.url | relative_url }}">{{ older.title }}</a>
+      {% endif %}
+    </div>
+    <div class="right">
+      {% if newer_i >= 0 %}{% assign newer = sorted[newer_i] %}
+      <span>Newer →</span><a href="{{ newer.url | relative_url }}">{{ newer.title }}</a>
+      {% endif %}
+    </div>
+  </nav>
+</article>
