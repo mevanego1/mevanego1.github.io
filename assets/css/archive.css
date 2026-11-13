@@ -219,6 +219,15 @@ a { color: inherit; }
 }
 .story-body p { margin: 0 0 1.1em; hyphens: auto; }
 
+/* Copy-link button */
+.reader-controls .share-btn {
+  display: inline-flex; align-items: center; gap: 6px; text-decoration: none;
+  color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px;
+  background: var(--card);
+}
+.reader-controls .share-btn:hover { color: var(--accent); border-color: var(--accent); }
+.reader-controls .share-btn.copied { color: #fff; background: var(--accent); border-color: var(--accent); }
+
 /* Reader controls (font + size) */
 .reader-controls {
   display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px 18px;

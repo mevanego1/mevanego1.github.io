@@ -18,6 +18,10 @@ layout: default
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&family=Merriweather:ital,wght@0,400;1,400&family=Atkinson+Hyperlegible:ital,wght@0,400;1,400&display=swap">
 
   <div class="reader-controls" aria-label="Reading settings">
+    <button type="button" id="share-link" class="share-btn" aria-live="polite">
+      <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5"/></svg>
+      <span>Copy link</span>
+    </button>
     <label>Font
       <select id="story-font">
         <option value="">Default (Literata)</option>
@@ -42,6 +46,34 @@ layout: default
     <button type="button" id="story-reset">Reset</button>
     <button type="button" id="resume-reading" class="resume" hidden></button>
   </div>
+
+  <script>
+  /* Copy the story's link to the clipboard */
+  (function () {
+    var btn = document.getElementById('share-link');
+    var label = btn.querySelector('span');
+    var url = {{ page.url | absolute_url | jsonify }};
+    var timer;
+    function done(ok) {
+      label.textContent = ok ? 'Link copied!' : 'Copy failed';
+      btn.classList.toggle('copied', ok);
+      clearTimeout(timer);
+      timer = setTimeout(function () { label.textContent = 'Copy link'; btn.classList.remove('copied'); }, 2000);
+    }
+    function fallback() {
+      var t = document.createElement('textarea');
+      t.value = url; t.setAttribute('readonly', ''); t.style.position = 'fixed'; t.style.opacity = '0';
+      document.body.appendChild(t); t.select();
+      var ok = false; try { ok = document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(t); done(ok);
+    }
+    btn.addEventListener('click', function () {
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(url).then(function () { done(true); }, fallback);
+      } else { fallback(); }
+    });
+  })();
+  </script>
 
   <script>
   (function () {
