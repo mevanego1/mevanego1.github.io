@@ -21,7 +21,7 @@ book:
   title: "Shadoweaver"
   kind: "A fantasy novel"
   url: "https://www.amazon.com/dp/B0DJNCML1L"
-  cover: ""
+  cover: "/assets/img/shadoweaver.jpg"
 
 # If your repository is named  yourusername.github.io  leave baseurl empty.
 # If it's named something else (e.g. "stories"), set baseurl: "/stories"

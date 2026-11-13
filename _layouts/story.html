@@ -4,6 +4,7 @@ layout: default
 {% assign words = content | strip_html | number_of_words %}
 {% assign minutes = words | divided_by: site.reading_speed | at_least: 1 %}
 <div class="read-progress" aria-hidden="true"><span id="read-progress-bar"></span></div>
+<a class="back-home" id="back-home" href="{{ '/' | relative_url }}">← All stories</a>
 <article class="story">
   <header class="story-header">
     {% if page.genre %}<a class="genre" href="{{ '/genres/' | relative_url }}#{{ page.genre | slugify }}">{{ page.genre }}</a>{% endif %}{% if page.genre and page.length %}<span class="genre-sep">·</span>{% endif %}{% if page.length %}<span class="genre">{{ page.length }}</span>{% endif %}
@@ -76,6 +77,7 @@ layout: default
     var body = document.getElementById('story-body');
     var bar = document.getElementById('read-progress-bar');
     var resume = document.getElementById('resume-reading');
+    var backHome = document.getElementById('back-home');
     var key; try { key = decodeURIComponent(location.pathname); } catch (e) { key = location.pathname; }
     var title = {{ page.title | jsonify }};
     function load() { try { return JSON.parse(localStorage.getItem('reading-progress') || '{}'); } catch (e) { return {}; } }
@@ -112,6 +114,7 @@ layout: default
       var p = current();
       bar.style.width = (p * 100) + '%';
       if (p > 0.03) resume.hidden = true;
+      backHome.classList.toggle('visible', window.scrollY > 400);
       clearTimeout(timer);
       timer = setTimeout(saveNow, 300);
     }
