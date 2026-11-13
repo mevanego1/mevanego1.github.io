@@ -13,6 +13,55 @@ layout: default
     </p>
   </header>
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&family=Merriweather:ital,wght@0,400;1,400&family=Atkinson+Hyperlegible:ital,wght@0,400;1,400&display=swap">
+
+  <div class="reader-controls" aria-label="Reading settings">
+    <label>Font
+      <select id="story-font">
+        <option value="">Default (Literata)</option>
+        <option value="'Lora', Georgia, serif">Lora</option>
+        <option value="'Merriweather', Georgia, serif">Merriweather</option>
+        <option value="Georgia, 'Times New Roman', serif">Georgia</option>
+        <option value="'Atkinson Hyperlegible', Verdana, sans-serif">Atkinson Hyperlegible</option>
+        <option value="Verdana, Geneva, sans-serif">Verdana</option>
+      </select>
+    </label>
+    <label>Size
+      <select id="story-size">
+        <option value="">Default</option>
+        <option value="10px">10</option>
+        <option value="12px">12</option>
+        <option value="14px">14</option>
+        <option value="16px">16</option>
+        <option value="18px">18</option>
+        <option value="24px">24</option>
+      </select>
+    </label>
+    <button type="button" id="story-reset">Reset</button>
+  </div>
+
+  <script>
+  (function () {
+    var root = document.documentElement;
+    function get(k) { try { return localStorage.getItem(k) || ''; } catch (e) { return ''; } }
+    function set(k, v) { try { v ? localStorage.setItem(k, v) : localStorage.removeItem(k); } catch (e) {} }
+    function apply(prop, v) { v ? root.style.setProperty(prop, v) : root.style.removeProperty(prop); }
+    var font = document.getElementById('story-font');
+    var size = document.getElementById('story-size');
+    font.value = get('story-font'); size.value = get('story-size');
+    if (font.selectedIndex < 0) font.value = '';
+    if (size.selectedIndex < 0) size.value = '';
+    apply('--story-font', font.value); apply('--story-size', size.value);
+    font.addEventListener('change', function () { set('story-font', font.value); apply('--story-font', font.value); });
+    size.addEventListener('change', function () { set('story-size', size.value); apply('--story-size', size.value); });
+    document.getElementById('story-reset').addEventListener('click', function () {
+      font.value = ''; size.value = '';
+      set('story-font', ''); set('story-size', '');
+      apply('--story-font', ''); apply('--story-size', '');
+    });
+  })();
+  </script>
+
   <div class="story-body">
     {{ content }}
   </div>
